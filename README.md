@@ -1,3 +1,5 @@
+Welcome to "Gotta Catch Them All", an online pokedex that will demonstrate a Pokemon's name, sprites, abilities, and start. To begin, run npm install to load all dependencies. You can use the search feature to type a Pokemon's name and go to their view page directly. You can also navigate to the about page or the contact page for additional information. React Pagination, Axios, and Lodash are additional dependecies that were installed. This project contains at least 5 stateless components (About, Contact, Header, Navbar, and View page). It contains two containers, uses a Rails API backend, and React-Router. If you'd like to add more Pokemon, navigate to the pokemon_api file in the terminal and load up Rails Console. Create a Pokemon and include its name, a url for sprites, and some stats and abilities. Have fun!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
