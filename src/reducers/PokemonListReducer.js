@@ -20,12 +20,14 @@ const DefaultState = {
           errorMsg: "unable to get pokemon"
         };
       case "POKEMON_LIST_SUCCESS":
+        // debugger
         return {
           ...state,
           loading: false,
-          data: action.payload.results,
+          data: action.payload,
           errorMsg: "",
-          count: action.payload.count
+          // count: action.payload.count
+          count: action.payload.length
         };
       default:
         return state

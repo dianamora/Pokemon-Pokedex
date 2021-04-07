@@ -13,7 +13,7 @@ nav {
   height: 60px;
   align-items: center;
   justify-content: flex-end;
-  background-color: coral;
+  background-color: rgb(12, 83, 48);
 }
 
 nav a {

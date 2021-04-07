@@ -59,7 +59,8 @@ const PokemonList = (props) => {
           marginPagesDisplayed={1}
           onPageChange={(data) => FetchData(data.selected + 1)}
           containerClassName={"pagination"}
-        />
+        /> 
+        // pagination is stateless component?
       )}
     </div>
   )
